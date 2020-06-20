@@ -1,0 +1,285 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/DataMySQL-testrunner"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"Data/MySQL/testsuite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "NO_TCL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_HAVE_FD_EPOLL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_OS_FAMILY_UNIX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "THREADSAFE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_XOPEN_SOURCE=500"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/mnt/c/Users/CarmineDiGruttola/source/repos/poco/Data/MySQL/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/mnt/c/Users/CarmineDiGruttola/source/repos/poco/Data/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/mnt/c/Users/CarmineDiGruttola/source/repos/poco/Foundation/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/mnt/c/Users/CarmineDiGruttola/source/repos/poco/CppUnit/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/mysql"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "CppUnit::@5c1efc60113704ab3e3e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Foundation::@03697081e5612e2e24a8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Data::@09b3a79b25e34167f695"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "DataMySQL::@af38f2b38863189734ca"
+		}
+	],
+	"id" : "DataMySQL-testrunner::@0f6f7c9308b8305b716f",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/mnt/c/Users/CarmineDiGruttola/source/repos/poco/out/build/WSL-GCC-Debug/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libPocoDataMySQLd.so.71",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libCppUnitd.so.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libPocoDatad.so.71",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libmysqlclient.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libPocoFoundationd.so.71",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "DataMySQL-testrunner",
+	"nameOnDisk" : "DataMySQL-testrunner",
+	"paths" : 
+	{
+		"build" : "Data/MySQL/testsuite",
+		"source" : "Data/MySQL/testsuite"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Unknown\\Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "Unknown\\Header Files",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Data/MySQL/testsuite/src/Driver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Data/MySQL/testsuite/src/MySQLTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Data/MySQL/testsuite/src/MySQLTestSuite.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Data/MySQL/testsuite/src/SQLExecutor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Data/MySQL/testsuite/src/WinDriver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Data/MySQL/testsuite/src/MySQLTest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Data/MySQL/testsuite/src/MySQLTestSuite.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Data/MySQL/testsuite/src/SQLExecutor.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

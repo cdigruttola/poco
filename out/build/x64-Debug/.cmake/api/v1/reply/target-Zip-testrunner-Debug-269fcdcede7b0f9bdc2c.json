@@ -1,0 +1,283 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/Zip-testrunner.exe"
+		},
+		{
+			"path" : "bin/Zip-testrunner.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"Zip/testsuite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 223,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++1y /MDd /Zi /Ob0 /Od /RTC1  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "POCO_OS_FAMILY_WINDOWS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/CarmineDiGruttola/source/repos/poco/Zip/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/CarmineDiGruttola/source/repos/poco/Foundation/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/CarmineDiGruttola/source/repos/poco/Net/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/CarmineDiGruttola/source/repos/poco/CppUnit/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				5,
+				6
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Foundation::@03697081e5612e2e24a8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "CppUnit::@5c1efc60113704ab3e3e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Net::@55a7020f216620e671f3"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Zip::@25ca7f0e722addf51383"
+		}
+	],
+	"id" : "Zip-testrunner::@e9c3f85f90bf4a124d74",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++1y /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\lib\\PocoZipd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\lib\\PocoNetd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\lib\\CppUnitd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "iphlpapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\lib\\PocoFoundationd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "iphlpapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Zip-testrunner",
+	"nameOnDisk" : "Zip-testrunner.exe",
+	"paths" : 
+	{
+		"build" : "Zip/testsuite",
+		"source" : "Zip/testsuite"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Unknown\\Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "Unknown\\Header Files",
+			"sourceIndexes" : 
+			[
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Zip/testsuite/src/CompressTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Zip/testsuite/src/Driver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Zip/testsuite/src/PartialStreamTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Zip/testsuite/src/WinCEDriver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Zip/testsuite/src/WinDriver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Zip/testsuite/src/ZipTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Zip/testsuite/src/ZipTestSuite.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Zip/testsuite/src/CompressTest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Zip/testsuite/src/PartialStreamTest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Zip/testsuite/src/ZipTest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Zip/testsuite/src/ZipTestSuite.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,178 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/StringTokenizer"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"Foundation/samples/StringTokenizer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++1y -g  "
+				},
+				{
+					"fragment" : "-std=gnu++1y"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_HAVE_FD_EPOLL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_OS_FAMILY_UNIX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_XOPEN_SOURCE=500"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/cirrus/.vs/poco/7603ced7-edea-4bef-8dce-2c46db4e2075/src/Foundation/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Foundation::@03697081e5612e2e24a8"
+		}
+	],
+	"id" : "StringTokenizer::@05625ad9d629044c0ec0",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++1y -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cirrus/.vs/poco/7603ced7-edea-4bef-8dce-2c46db4e2075/out/build/Linux-GCC-Debug/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libPocoFoundationd.so.71",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "StringTokenizer",
+	"nameOnDisk" : "StringTokenizer",
+	"paths" : 
+	{
+		"build" : "Foundation/samples/StringTokenizer",
+		"source" : "Foundation/samples/StringTokenizer"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Foundation/samples/StringTokenizer/src/StringTokenizer.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

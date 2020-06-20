@@ -176,7 +176,7 @@ option(ENABLE_PAGECOMPILER "Enable PageCompiler" ON)
 option(ENABLE_PAGECOMPILER_FILE2PAGE "Enable File2Page" ON)
 
 option(ENABLE_TESTS
-	"Set to OFF|ON (default is OFF) to control build of POCO tests & samples" OFF)
+	"Set to OFF|ON (default is OFF) to control build of POCO tests & samples" ON)
 
 option(POCO_UNBUNDLED
 	"Set to OFF|ON (default is OFF) to control linking dependencies as external" OFF)
